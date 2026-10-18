@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>Физика, 7 класс — научные методы изучения природы</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #edf7ff;
+      color: #20304a;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #18786F;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .header-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #E2E8F0;
+      padding: 24px;
+      margin-bottom: 22px;
+      border-radius: 18px;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+
+    h2 {color: #13625A;}
+
+    .yellow {background: #FFF085;}
+
+    .green {background: #d6f6df;}
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 15px auto;
+      border-radius: 12px;
+    }
+
+    .header-photo {
+      width: 170px;
+      height: 210px;
+      object-fit: cover;
+      flex-shrink: 0;
+      margin: 0;
+      border: 4px solid white;
+      border-radius: 20px;
+      box-sizing: border-box;
+    }
+
+    .caption {
+      color: #011912;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      background: #FF0040;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+    }
+
+    .button:hover {background: #75001D;}
+
+    .button:focus-visible {
+      outline: 3px solid #20304a;
+      outline-offset: 4px;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        padding: 25px 10px;
+      }
+
+      .header-content {gap: 10px;}
+
+      .header-photo {
+        width: 65px;
+        height: 100px;
+        border-width: 2px;
+        border-radius: 12px;
+      }
+
+      .header-text h1 {font-size: 22px;}
+
+      .header-text p {font-size: 14px;}
+
+      main {padding: 12px;}
+
+      .card {padding: 18px;}
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-content">
+
+      <img
+        class="header-photo"
+        src="images/laboratory.jpg"
+        alt="Исследователь работает с оборудованием физической лаборатории">
+
+      <div class="header-text">
+        <p>ФИЗИКА • 7 КЛАСС •</p>
+
+        <h1>Научные методы изучения природы</h1>
+
+        <p>
+          Наблюдаем → предполагаем → проверяем → узнаём новое!
+        </p>
+      </div>
+
+      <img
+        class="header-photo"
+        src="images/tower.jpg"
+        alt="Пизанская башня в Италии">
+
+    </div>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <h2>Как физики изучают природу?</h2>
+
+      <p>
+        Физическое исследование — целенаправленное изучение
+        явлений природы средствами физики. Учёные наблюдают,
+        задают вопросы, выдвигают предположения и проверяют их.
+      </p>
+
+      <p>
+        Основные методы физических исследований —
+        экспериментальный и теоретический. Они дополняют
+        друг друга: опыт даёт данные, а теория помогает
+        их объяснить и предсказать новые результаты.
+      </p>
+    </div>
+
+    <div class="card yellow">
+      <h2>1. Наблюдение: замечаем явления</h2>
+
+      <p>
+        Наблюдение — восприятие природы для получения
+        первоначальных данных и их дальнейшего анализа.
+        Например, можно наблюдать, как тает снег
+        или движутся облака.
+      </p>
+
+      <p>
+        Но впечатления могут обманывать! На рисунке
+        в учебнике два отрезка кажутся разными,
+        хотя их длины одинаковы. Проверить это
+        можно линейкой.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>2. Эксперимент: проверяем предположение</h2>
+
+      <p>
+        Эксперимент — исследование явления в условиях,
+        которые контролирует исследователь.
+        В отличие от простого наблюдения, при опыте
+        специально создают нужные условия и часто
+        выполняют измерения.
+      </p>
+
+      <img
+        src="images/laboratory.jpg"
+        alt="Исследователь работает с оборудованием физической лаборатории."
+        width="300">
+
+      <p class="caption">
+         Исследователь за работой в современной физической лаборатории.
+      </p>
+    </div>
+
+    <div class="card yellow">
+      <h2>3. Гипотеза: ищем объяснение</h2>
+
+      <p>
+        Гипотеза — предположение, которое нужно проверить.
+        Галилей предположил, что более медленное падение
+        лёгких тел связано с сопротивлением воздуха.
+      </p>
+
+      <img
+        src="images/tower.jpg"
+        alt="Пизанская башня в Италии"
+        width="270">
+
+      <p class="caption">
+        Пизанская башня в Италии
+      </p>
+
+      <p>
+        В учебнике описан опыт Ньютона с монетой
+        и пером в стеклянной трубке. Когда воздух
+        из трубки удалили, оба тела достигли её дна
+        одновременно: сопротивление воздуха
+        перестало мешать падению.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>4. Теория и новое знание</h2>
+
+      <p>
+        Теоретическое исследование включает размышления,
+        анализ данных и математические расчёты.
+        В параграфе показано, как Ньютон связал падение
+        тел на Земле и движение планет законом
+        всемирного тяготения.
+      </p>
+
+      <img
+        src="images/accelerator.jpg"
+        alt="Тоннель Большого адронного коллайдера в CERN"
+        width="380">
+
+      <p class="caption">
+        Тоннель Большого адронного коллайдера в CERN
+      </p>
+
+      <h2>Путь исследования</h2>
+
+      <ol>
+        <li>
+          Использовать имеющиеся знания
+          и провести наблюдения.
+        </li>
+
+        <li>
+          Поставить вопрос, проанализировать данные
+          и выдвинуть гипотезу.
+        </li>
+
+        <li>
+          Проверить гипотезу экспериментом.
+        </li>
+
+        <li>
+          Сделать вывод: поддерживают ли результаты
+          гипотезу или противоречат ей?
+        </li>
+
+        <li>
+          Получить новое знание
+          и продолжить исследования.
+        </li>
+      </ol>
+
+      <p>
+        Это упрощённая схема: в реальном исследовании
+        учёные могут возвращаться к предыдущим этапам.
+      </p>
+    </div>
+
+    <div class="card yellow">
+      <h2>Попробуй объяснить!</h2>
+
+      <p>
+        В учебнике два отрезка кажутся неодинаковыми.
+        Что здесь является наблюдением?
+        Какую гипотезу можно выдвинуть?
+        Как проверить её линейкой?
+      </p>
+    </div>
+
+    <div class="card green">
+      <h2>Видеоурок Павла Виктора</h2>
+
+      <p>
+        Урок 2 (осн). Научные методы изучения природы.
+      </p>
+
+      <a
+        class="button"
+        href="https://rutube.ru/video/a174e8376feca67a4095248564c43e05/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Смотреть урок 2 на RUTUBE →
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    По материалам § 2 учебника физики, 7 класс
+  </footer>
+
+</body>
+</html>
